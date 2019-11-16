@@ -3,7 +3,7 @@ LABEL maintainer="AutoBuilder24x7"
 
 ENV DEBIAN_FRONTEND noninteractive
 
-ENV pip_packages "ansible cryptography ansible-lint"
+ENV pip_packages "ansible cryptography"
 
 # Install dependencies.
 RUN apt-get update \
